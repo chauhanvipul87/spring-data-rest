@@ -1,4 +1,4 @@
-# spring-boot-spring-data-rest with h2
+# spring-boot-spring-data-rest with H2 database
 
 I have created sample project in Spring Data Rest with H2(inmemory database). 
 
