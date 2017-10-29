@@ -5,13 +5,13 @@ I have created sample project of Spring Data Rest with H2(inmemory database).
 <h3>Adding Spring Data REST to a Maven project</h33>
 To add Spring Data REST to a Maven-based project, add the spring-data-rest-webmvc artifact to your
 compile-time dependencies:
-<pre>
+
 	<dependency>
 	<groupId>org.springframework.data</groupId>
 	<artifactId>spring-data-rest-webmvc</artifactId>
 	<version>3.0.1.RELEASE</version>
 	</dependency>
-</pre>
+
 
 
 What is HA Browser & what is the use of it?
@@ -24,12 +24,12 @@ Instead of pulling down the files, embedding them in your application, and craft
 controller to serve them up, If you would like to add HAL Browser supprt then all you need to do is add a single dependency.
 
 In Maven:
-<pre>
+
 	<dependency>
 	<groupId>org.springframework.data</groupId>
 	<artifactId>spring-data-rest-hal-browser</artifactId>
 	</dependency>
-<pre>
+
 
 I have used HA Browser in my project. If you above dependency in your project then no need to add spring-data-rest-webmvc dependency because it was already included in spring-data-rest-hal-browser.
 
