@@ -23,7 +23,7 @@ navigate the app and create new resources.
 Instead of pulling down the files, embedding them in your application, and crafting a Spring MVC
 controller to serve them up, If you would like to add HAL Browser supprt then all you need to do is add a single dependency.
 
-<h3>In Maven: <h3>
+<h3>In Maven: </h3>
 
 <dependency>
 <groupId>org.springframework.data</groupId>
@@ -36,7 +36,7 @@ I have used HA Browser in my project. If you above dependency in your project th
 This dependency will autoconfigure the HAL Browser to be served up when you visit your
 application’s root URI in a browser. (NOTE: http://localhost:8080 was plugged into the browser & displayed as below.)
 
-<img src="https://drive.google.com/open?id=0Bz1iej3g7_V4MldtaWdCRGRGUnM" />
+<img src="https://drive.google.com/open?id=0Bz1iej3g7_V4MldtaWdCRGRGUnM"></img>
 
 
 
